@@ -9,7 +9,7 @@ movies = pd.DataFrame(movies_dict)
 
 # Function to fetch movie poster using TMDB API
 def fetch_poster(movie_id):
-    api_key = "fb94f5c53045f8ed1d36c1e504aadfa0"
+    api_key = "fb94f5c53045f8ed1dghjkaadfa0"
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=en-US"
     response = requests.get(url)
     if response.status_code == 200:
